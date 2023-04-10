@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(./Paisaje.jpg);
+    background-size: cover;
+}
+.container{
+    
+    background-size: cover;
+    
+    
+}
+.container__header{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contenedor__helloworld-login{
+    display: flex;
+    flex-direction: row;
+}
+.hello{
+    background-image: url(./paisaje3.jpeg);
+    background-size:79rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hello h3{
+    font-size: 8rem;
+    gap: .1rem;
+}
+.hello p{
+    text-align: center;
+    margin: 0% 10%;
+}
+.redes{
+    margin: .5rem;
+}
+.redes img{
+    gap: 2rem;
+    margin-top: 3rem;
+    height: 45px;
+    border-radius: 25%;  
+}
+
+
+.login{
+    background:linear-gradient(150deg,hsl(309deg 30.77% 25.49%),hsl(355.81deg 88.57% 58.82%));
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+.login input{
+    width: 100%;
+    background-color: transparent;
+    color: gray;
+    border: none;
+    margin-bottom: .5rem;
+    margin-top: 10%;
+}
+.login h3{
+    font-size: 3rem;
+    gap: 3rem;
+    margin-right: 25%;
+}
+.login button{
+    background-color: blue;
+    border-radius: 25%;
+    margin-top: 50%;
+    margin-left: 75%;
+    height: 50px;
+    width: 85px;
+    outline: none;
+}
+.resgistrarse{
+    margin-top: 20%;
+    font-size: 1.5rem;
+}
